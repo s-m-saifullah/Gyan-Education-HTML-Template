@@ -116,6 +116,34 @@ Header Style
 ============
 */
 
+header {
+  padding: 10px 0;
+  background-color: var(--primary-color);
+}
+header span,
+header .h_left,
+header .h_left a,
+header .h_right a {
+  font-size: 14px;
+  color: #ffffff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+header .h_left span {
+  margin-right: 15px;
+}
+
+header span i {
+  margin-right: 5px;
+}
+
+header .h_left:hover,
+header .h_left a:hover,
+header .h_right a:hover {
+  color: var(--secondary-color);
+}
+
 /*
 =========
 Nav Style
