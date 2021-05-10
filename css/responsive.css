@@ -1,0 +1,25 @@
+/* Large (lg) Device */
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+}
+
+/* Medium (md) Device */
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+}
+
+/* Small (sm) Device */
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+}
+
+@media (max-width: 767.9px) {
+}
+
+@media (max-width: 575.9px) {
+}
+
+/* Mobile Phones (Portrait Device */
+
+@media (max-width: 479px) {
+}
