@@ -110,6 +110,10 @@ h5 {
   color: var(--text-color-1);
 }
 
+button:focus {
+  outline: transparent;
+}
+
 /*
 ============
 Header Style
@@ -149,6 +153,61 @@ header .h_right a:hover {
 Nav Style
 =========
 */
+
+nav {
+  padding: 20px 0 5px !important;
+}
+
+nav .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+
+nav .navbar-toggler:hover,
+nav .navbar-toggler:focus {
+  color: var(--secondary-color);
+}
+
+nav .main_menu .nav-item {
+  margin: 0 20px;
+}
+
+nav .main_menu .nav-item a {
+  padding-bottom: 0;
+}
+
+nav .main_menu .nav-item a {
+  color: var(--primary-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+nav .main_menu .nav-item .active,
+nav .main_menu .nav-item a:hover {
+  color: var(--secondary-color);
+}
+
+nav .get_started {
+  padding: 10px 18px;
+  border-radius: 7px;
+  background-color: var(--secondary-color);
+  -webkit-border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+nav .get_started a {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+nav .get_started:hover {
+  background-color: var(--primary-color);
+}
 
 /*
 =================
