@@ -1,3 +1,35 @@
+/*
+Name: Gyan - Education HTML Template
+Author: S. M. Saifullah
+Mail: shakil.m.19@gmail.com
+Version: 1.0
+
+
+================
+Table of Content
+================
+
+Common Sections to all pages
+
+1. Global Style
+2. Header Style
+3. Nav Style
+
+Home Page Sections
+
+4. Home Banner Style
+5. Support Style
+6. About Us Style
+
+
+*/
+
+/*
+============
+Global Style
+============
+*/
+
 :root {
   --primary-color: #2d3e50;
   --secondary-color: #fbaa33;
@@ -77,3 +109,61 @@ h5 {
   line-height: 18px;
   color: var(--text-color-1);
 }
+
+/*
+============
+Header Style
+============
+*/
+
+header {
+  padding: 10px 0;
+  background-color: var(--primary-color);
+}
+header span,
+header .h_left,
+header .h_left a,
+header .h_right a {
+  font-size: 14px;
+  color: #ffffff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+header .h_left span {
+  margin-right: 15px;
+}
+
+header span i {
+  margin-right: 5px;
+}
+
+header .h_left:hover,
+header .h_left a:hover,
+header .h_right a:hover {
+  color: var(--secondary-color);
+}
+
+/*
+=========
+Nav Style
+=========
+*/
+
+/*
+=================
+Home Banner Style
+=================
+*/
+
+/*
+=============
+Support Style
+=============
+*/
+
+/*
+==============
+About Us Style
+==============
+*/
