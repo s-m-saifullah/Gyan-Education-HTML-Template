@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Arimo", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
