@@ -1,6 +1,23 @@
 /* Large (lg) Device */
 
+@media (min-width: 1200px) {
+  #banner .slider_arrows .slider_left_arrow,
+  #banner .slider_arrows .slider_right_arrow {
+    top: 53vh;
+    height: 50px;
+    width: 50px;
+  }
+
+  .slider_arrows i {
+    line-height: 50px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199.9px) {
+  #banner .banner_content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 /* Medium (md) Device */
@@ -14,13 +31,8 @@
 }
 
 @media (max-width: 1199.9px) {
-  #banner .banner_content h1 {
-    font-size: 40px;
-    line-height: 48px;
-  }
-
-  #banner .banner_content h1 span {
-    font-size: 26px;
+  #banner .banner_content {
+    text-align: center;
   }
 
   .home_slider {
@@ -48,8 +60,12 @@
     line-height: 40px;
   }
 
-  #banner .banner_content {
-    text-align: center;
+  #banner .banner_content h1 {
+    font-size: 40px;
+  }
+
+  #banner .banner_content h1 span {
+    font-size: 26px;
   }
 }
 
