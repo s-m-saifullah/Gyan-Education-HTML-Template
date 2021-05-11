@@ -225,6 +225,11 @@ nav .get_started:hover {
 Home Banner Style
 =================
 */
+
+.home_slider {
+  height: 100vh;
+}
+
 .slider_arrows {
   position: relative;
 }
@@ -232,7 +237,7 @@ Home Banner Style
 #banner .slider_arrows .slider_left_arrow,
 #banner .slider_arrows .slider_right_arrow {
   position: absolute;
-  top: 50vh;
+  top: 55vh;
   height: 60px;
   width: 60px;
   border: 1px solid #ffffff;
@@ -262,10 +267,6 @@ Home Banner Style
   font-size: 28px;
   line-height: 60px;
   color: #ffffff;
-}
-
-.home_slider {
-  height: 100vh;
 }
 
 #banner .slide_content {
@@ -305,6 +306,7 @@ Home Banner Style
   font-weight: 700;
   font-size: 52px;
   line-height: 62px;
+  margin-bottom: 20px;
 }
 
 #banner .banner_content h1 span {
