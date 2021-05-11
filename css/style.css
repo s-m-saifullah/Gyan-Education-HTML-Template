@@ -140,9 +140,11 @@ header .h_left span {
 
 header span i {
   margin-right: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
 }
 
-header .h_left:hover,
+header .h_left span:hover i,
 header .h_left a:hover,
 header .h_right a:hover {
   color: var(--secondary-color);
