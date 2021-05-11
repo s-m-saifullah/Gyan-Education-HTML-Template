@@ -156,7 +156,6 @@ Nav Style
 
 nav {
   padding: 20px 0 30px !important;
-  border-bottom: 1px solid #999;
 }
 
 nav .navbar-toggler {
@@ -166,13 +165,22 @@ nav .navbar-toggler {
   -webkit-transition: 0.3s;
 }
 
+nav .navbar-toggler i {
+  font-size: 26px;
+  line-height: 26px;
+}
+
 nav .navbar-toggler:hover,
 nav .navbar-toggler:focus {
   color: var(--secondary-color);
 }
 
+nav .main_menu {
+  text-align: center;
+}
+
 nav .main_menu .nav-item {
-  margin: 0 20px;
+  margin: 5px 20px;
 }
 
 nav .main_menu .nav-item a {
