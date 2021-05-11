@@ -297,6 +297,7 @@ Home Banner Style
 
 #banner .banner_content {
   color: #ffffff;
+  margin-top: -70px;
 }
 
 #banner .banner_content h1 {
