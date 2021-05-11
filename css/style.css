@@ -225,6 +225,45 @@ nav .get_started:hover {
 Home Banner Style
 =================
 */
+.slider_arrows {
+  position: relative;
+}
+
+#banner .slider_arrows .slider_left_arrow,
+#banner .slider_arrows .slider_right_arrow {
+  position: absolute;
+  top: 50vh;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #ffffff;
+  text-align: center !important;
+  border-radius: 50%;
+  z-index: 1;
+  transition: 0.4s;
+  -webkit-border-radius: 50%;
+  -webkit-transition: 0.4s;
+}
+
+#banner .slider_arrows .slider_left_arrow:hover,
+#banner .slider_arrows .slider_right_arrow:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+#banner .slider_arrows .slider_left_arrow {
+  left: 40px;
+}
+
+#banner .slider_arrows .slider_right_arrow {
+  right: 40px;
+}
+
+.slider_arrows i {
+  font-size: 28px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
 .home_slider {
   height: 100vh;
 }
