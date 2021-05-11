@@ -67,6 +67,10 @@
   #banner .banner_content h1 span {
     font-size: 26px;
   }
+
+  #banner .banner_content p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -78,4 +82,8 @@
 /* Mobile Phones (Portrait Device */
 
 @media (max-width: 479px) {
+  #banner .slider_arrows .slider_left_arrow,
+  #banner .slider_arrows .slider_right_arrow {
+    top: 55vh;
+  }
 }
