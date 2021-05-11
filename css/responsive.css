@@ -21,8 +21,9 @@
 }
 
 @media (max-width: 991.9px) {
-    nav .main_menu .nav-item .nav-link {
+  nav .main_menu .nav-item .nav-link {
     font-size: 16px;
+  }
 }
 
 @media (max-width: 767.9px) {
