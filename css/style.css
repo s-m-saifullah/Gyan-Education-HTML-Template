@@ -225,13 +225,13 @@ nav .get_started:hover {
 Home Banner Style
 =================
 */
-#banner {
+.home_slider {
   height: 100vh;
-  background-position: center;
-  background-size: cover;
 }
 
 #banner .slide_content {
+  background-size: cover;
+  background-position: left;
   position: relative;
   z-index: 1;
 }
