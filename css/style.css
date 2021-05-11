@@ -225,7 +225,15 @@ nav .get_started:hover {
 Home Banner Style
 =================
 */
+#banner {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
 
+#banner .slide_content {
+  height: 100%;
+}
 /*
 =============
 Support Style
