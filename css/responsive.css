@@ -82,12 +82,31 @@
   .support_item:not(:last-of-type) {
     border-right: 1px solid #dddddd;
   }
+
+  .about_right a {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+
+  .about_left::before,
+  .about_left::after {
+    width: 50%;
+  }
 }
 
 @media (max-width: 575.9px) {
   #support {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .about_left::before,
+  .about_left::after {
+    width: 40%;
+  }
+
+  .about_left::after {
+    right: 8px;
   }
 }
 

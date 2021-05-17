@@ -110,6 +110,28 @@ h5 {
   color: var(--text-color-1);
 }
 
+a.prime_bg {
+  background-color: var(--primary-color);
+  transition: 0.5s;
+  margin-right: 20px;
+  -webkit-transition: 0.5s;
+}
+
+a.prime_bg:hover {
+  background-color: var(--secondary-color);
+}
+
+a.sec_bg {
+  background-color: var(--secondary-color);
+  transition: 0.5s;
+  margin-right: 20px;
+  -webkit-transition: 0.5s;
+}
+
+a.sec_bg:hover {
+  background-color: var(--primary-color);
+}
+
 button:focus {
   outline: transparent;
 }
@@ -320,7 +342,8 @@ Home Banner Style
   margin-bottom: 25px;
 }
 
-#banner .banner_content a {
+#banner .banner_content a,
+.about_right a {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
@@ -329,28 +352,6 @@ Home Banner Style
   display: inline-block;
   border-radius: 7px;
   -webkit-border-radius: 7px;
-}
-
-#banner .banner_content a.sec_bg {
-  background-color: var(--secondary-color);
-  margin-right: 20px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-}
-
-#banner .banner_content a.prime_bg {
-  background-color: var(--primary-color);
-  transition: 0.5s;
-  margin-right: 20px;
-  -webkit-transition: 0.5s;
-}
-
-#banner .banner_content a.sec_bg:hover {
-  background-color: var(--primary-color);
-}
-
-#banner .banner_content a.prime_bg:hover {
-  background-color: var(--secondary-color);
 }
 
 /*
@@ -423,7 +424,7 @@ About Us Style
 }
 
 .about_slider .slide_item img {
-  max-width: 100%;
+  width: 100%;
   clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%);
 }
 
@@ -434,6 +435,7 @@ About Us Style
   height: 3px;
   width: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .about_left::before {
@@ -477,4 +479,14 @@ About Us Style
 .about_left .slider_dots button.tns-nav-active i {
   color: var(--secondary-color);
   background-color: var(--secondary-color);
+}
+
+.about_right {
+  margin-top: 50px;
+}
+
+.about_right p {
+  font-size: 14px;
+  color: var(--text-color-1);
+  margin-bottom: 20px;
 }
