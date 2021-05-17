@@ -413,3 +413,68 @@ About Us Style
 #home_about {
   padding-bottom: 100px;
 }
+
+.about_content {
+  margin-top: 55px;
+}
+
+.about_left {
+  position: relative;
+}
+
+.about_slider .slide_item img {
+  max-width: 100%;
+  clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%);
+}
+
+.about_left::before,
+.about_left::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.about_left::before {
+  top: -10px;
+  background-image: url(../images/aboutSliderBorderTop.png);
+  background-position: left;
+}
+
+.about_left::after {
+  bottom: -10px;
+  right: 10px;
+  background-image: url(../images/aboutSliderBorderBottom.png);
+  background-position: right;
+}
+
+.about_left .slider_dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  z-index: 2;
+  -webkit-transform: translateX(-50%);
+}
+
+.about_left .slider_dots button {
+  background-color: transparent;
+  border: none;
+}
+
+.about_left .slider_dots button i {
+  font-size: 12px;
+  color: var(--light-text);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.about_left .slider_dots button + button {
+  margin-left: 5px;
+}
+
+.about_left .slider_dots button.tns-nav-active i {
+  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
