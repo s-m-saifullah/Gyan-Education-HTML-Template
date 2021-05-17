@@ -78,8 +78,8 @@ ol {
 .section_heading h2 {
   font-size: 32px;
   font-weight: 500;
-  line-height: 38px;
   color: var(--primary-color);
+  margin-bottom: 25px;
 }
 
 .section_heading p {
@@ -410,3 +410,6 @@ Support Style
 About Us Style
 ==============
 */
+#home_about {
+  padding-bottom: 100px;
+}
