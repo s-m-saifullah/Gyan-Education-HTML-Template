@@ -74,9 +74,21 @@
 }
 
 @media (max-width: 767.9px) {
+  #support {
+    transform: translateY(-17%);
+    -webkit-transform: translateY(-17%);
+  }
+
+  .support_item:not(:last-of-type) {
+    border-right: 1px solid #dddddd;
+  }
 }
 
 @media (max-width: 575.9px) {
+  #support {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /* Mobile Phones (Portrait Device */
