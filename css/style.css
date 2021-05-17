@@ -490,3 +490,29 @@ About Us Style
   color: var(--text-color-1);
   margin-bottom: 20px;
 }
+
+/*
+==============
+Counter Style
+==============
+*/
+
+#counter {
+  background-image: url(../images/counterPartImage.png);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+#counter h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f1f1f1;
+}
+
+#counter h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f1f1f1;
+  margin: 10px 0 20px;
+}
