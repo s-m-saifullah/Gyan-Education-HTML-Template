@@ -20,6 +20,8 @@ Home Page Sections
 4. Home Banner Style
 5. Support Style
 6. About Us Style
+7. Counter Style
+8. Our Courses Style
 
 
 */
@@ -92,14 +94,12 @@ ol {
 h3 {
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
   color: var(--text-color-1);
 }
 
 h4 {
   font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
   color: var(--dark-text-color-1);
 }
 
@@ -343,7 +343,8 @@ Home Banner Style
 }
 
 #banner .banner_content a,
-.about_right a {
+.about_right a,
+.enroll_btn a {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
@@ -492,9 +493,9 @@ About Us Style
 }
 
 /*
-==============
+=============
 Counter Style
-==============
+=============
 */
 
 #counter {
@@ -515,4 +516,156 @@ Counter Style
   font-weight: 400;
   color: #f1f1f1;
   margin: 10px 0 20px;
+}
+
+/*
+=================
+Our Courses Style
+=================
+*/
+
+#home_course {
+  padding: 100px 0;
+}
+
+#home_course .container {
+  padding: 0 !important;
+}
+
+#home_course .course_item {
+  padding: 20px;
+  background-color: var(--bg-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  position: relative;
+}
+
+#home_course .course_item:hover {
+  -webkit-box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+}
+
+#home_course .course_item:hover .course_title h3 {
+  color: var(--secondary-color);
+}
+
+#home_course .course_item:hover .enroll_btn a {
+  background-color: var(--secondary-color);
+}
+
+.course_item_wrapper {
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.course_thumb {
+  position: relative;
+}
+
+.course_thumb .row {
+  margin: 0;
+}
+
+.course_thumb img {
+  display: block;
+  width: 100%;
+}
+
+.course_thumb_overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.course_thumb_overlay i {
+  color: #f1f1f1;
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  -webkit-border-radius: 50%;
+}
+
+.course_thumb:hover .course_thumb_overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.course_author {
+  margin: 15px 0;
+}
+
+.course_author_img img {
+  width: 100%;
+}
+
+.course_author_name {
+  margin-left: -10px;
+}
+
+.course_author_name p {
+  font-size: 13px;
+  color: var(--text-color-1);
+}
+
+.course_author_name h5 {
+  font-size: 15px;
+  color: var(--text-color-1);
+}
+
+.course_author_rating i {
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.course_author_rating .single_rating {
+  font-size: 13px;
+  color: var(--light-text);
+}
+
+.course_title h3 {
+  font-size: 20px;
+  color: var(--dark-text-color-1);
+  margin: 5px 0 15px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.course_description p {
+  font-size: 13px;
+  line-height: 26px;
+  color: var(--dark-text-color-2);
+}
+
+.course_details {
+  margin-bottom: 50px;
+}
+
+.course_details_heading {
+  font-size: 12px;
+  color: var(--light-text);
+}
+
+.course_details_value {
+  font-size: 13px;
+  color: var(--text-color-1);
+}
+
+.enroll_btn {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
 }

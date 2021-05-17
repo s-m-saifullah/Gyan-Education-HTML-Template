@@ -32,4 +32,16 @@ $(function($){
         delay: 10,
         time: 1000
     });
+
+
+    //Our courses section slider initialization
+
+    tns({
+        container: '.course_slider',
+        items: 3,
+        slidBy: 1,
+        controls: true,
+        autoplay: false,
+        nav: false,
+    });
 });
