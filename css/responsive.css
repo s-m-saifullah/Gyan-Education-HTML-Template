@@ -71,6 +71,14 @@
   #banner .banner_content p {
     font-size: 12px;
   }
+
+  #counter h2 {
+    font-size: 34px;
+  }
+
+  #counter h4 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -92,6 +100,14 @@
   .about_left::after {
     width: 50%;
   }
+
+  #counter h2 {
+    font-size: 26px;
+  }
+
+  #counter h4 {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 575.9px) {
@@ -107,6 +123,17 @@
 
   .about_left::after {
     right: 8px;
+  }
+
+  #counter h4 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+
+  #counter .count_teacher,
+  #counter .count_student {
+    margin-bottom: 20px;
   }
 }
 
