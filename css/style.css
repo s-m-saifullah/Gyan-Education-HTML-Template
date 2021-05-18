@@ -705,7 +705,7 @@ Our Courses Style
   color: var(--text-color-1);
 }
 
-.no_of_classes .enroll_btn {
+.enroll_btn {
   position: absolute;
   bottom: -30px;
   left: 50%;
