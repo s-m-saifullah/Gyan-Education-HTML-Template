@@ -38,12 +38,20 @@ $(function($){
 
     tns({
         container: '.course_slider',
-        items: 3,
+        items: 1,
         slidBy: 1,
         controls: true,
         autoplay: false,
         nav: false,
         prevButton: '.course_slider_left_arrow',
-        nextButton: '.course_slider_right_arrow'
+        nextButton: '.course_slider_right_arrow',
+        responsive: {
+            1024: {
+                items: 3
+            },
+            600: {
+                items: 2
+            }
+        }
     });
 });
