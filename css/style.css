@@ -658,6 +658,7 @@ Our Courses Style
 .course_author_name p {
   font-size: 13px;
   color: var(--text-color-1);
+  margin-bottom: 5px;
 }
 
 .course_author_name h5 {
@@ -668,6 +669,7 @@ Our Courses Style
 .course_author_rating i {
   font-size: 12px;
   color: var(--secondary-color);
+  margin-bottom: 7px;
 }
 
 .course_author_rating .single_rating {
@@ -703,7 +705,7 @@ Our Courses Style
   color: var(--text-color-1);
 }
 
-.enroll_btn {
+.no_of_classes .enroll_btn {
   position: absolute;
   bottom: -30px;
   left: 50%;

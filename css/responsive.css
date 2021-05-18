@@ -79,6 +79,26 @@
   #counter h4 {
     font-size: 20px;
   }
+
+  .course_author_img,
+  .course_title h3,
+  .course_description p {
+    text-align: center;
+  }
+  .course_author_img img {
+    display: inline-block;
+    width: initial;
+  }
+
+  .course_author_name {
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .course_author_rating {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767.9px) {
