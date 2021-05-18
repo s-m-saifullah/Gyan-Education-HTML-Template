@@ -564,13 +564,14 @@ Our Courses Style
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+  z-index: 3;
 }
 
 .course_slider_left_arrow {
-  left: -70px;
+  left: -50px;
 }
 .course_slider_right_arrow {
-  right: -70px;
+  right: -50px;
 }
 
 #home_course .course_item {

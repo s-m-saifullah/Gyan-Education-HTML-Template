@@ -99,6 +99,14 @@
   .course_author_rating {
     text-align: center;
   }
+
+  .course_slider_left_arrow i,
+  .course_slider_right_arrow i {
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -127,6 +135,13 @@
 
   #counter h4 {
     font-size: 15px;
+  }
+
+  .course_slider_left_arrow {
+    left: calc(100vw - 99.8vw);
+  }
+  .course_slider_right_arrow {
+    right: calc(100vw - 99.8vw);
   }
 }
 
