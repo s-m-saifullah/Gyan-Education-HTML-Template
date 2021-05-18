@@ -23,6 +23,12 @@
 /* Medium (md) Device */
 
 @media (min-width: 768px) and (max-width: 991.9px) {
+  .course_slider_left_arrow {
+    left: -35px;
+  }
+  .course_slider_right_arrow {
+    right: -35px;
+  }
 }
 
 /* Small (sm) Device */
@@ -138,10 +144,10 @@
   }
 
   .course_slider_left_arrow {
-    left: calc(100vw - 99.8vw);
+    left: 0;
   }
   .course_slider_right_arrow {
-    right: calc(100vw - 99.8vw);
+    right: 0;
   }
 }
 

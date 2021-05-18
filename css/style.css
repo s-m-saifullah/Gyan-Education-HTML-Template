@@ -528,10 +528,6 @@ Our Courses Style
   padding: 100px 0;
 }
 
-#home_course .container {
-  padding: 0 !important;
-}
-
 .courses_wrapper {
   position: relative;
   margin-top: 40px;
@@ -712,4 +708,9 @@ Our Courses Style
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
+}
+
+.enroll_btn a {
+  font-size: 16px;
+  padding: 13px 20px;
 }
