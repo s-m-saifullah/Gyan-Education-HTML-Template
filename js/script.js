@@ -43,6 +43,8 @@ $(function($){
         controls: true,
         autoplay: false,
         nav: false,
+        touch: true,
+        mouseDrag: true,
         prevButton: '.course_slider_left_arrow',
         nextButton: '.course_slider_right_arrow',
         responsive: {
