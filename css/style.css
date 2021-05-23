@@ -344,7 +344,8 @@ Home Banner Style
 
 #banner .banner_content a,
 .about_right a,
-.enroll_btn a {
+.enroll_btn a,
+.join_btn a {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
@@ -713,4 +714,96 @@ Our Courses Style
 .enroll_btn a {
   font-size: 16px;
   padding: 13px 20px;
+}
+
+/*
+================
+Home Event Style
+================
+*/
+
+#home_event {
+  margin-bottom: 100px;
+}
+
+#home_event .event_items {
+  margin: 70px 0;
+}
+
+.event_items .event_item {
+  padding: 20px;
+  background-color: var(--bg-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.event_items .event_item:hover {
+  -webkit-box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+}
+
+.event_items .event_item:hover .event_details h2,
+.event_items .event_item:hover .event_location i,
+.event_items .event_item:hover .event_time i {
+  color: var(--secondary-color);
+}
+
+.event_items .event_item:hover .event_details .join_btn a {
+  background-color: var(--secondary-color);
+}
+
+.event_img {
+  position: relative;
+}
+
+.event_img .date_badge {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  background-color: #ff0000;
+  right: 0;
+  bottom: 0;
+}
+
+.event_item:nth-of-type(2) .event_img .date_badge {
+  background-color: #008000;
+}
+
+.event_img .date_badge p {
+  color: #f1f1f1;
+  font-weight: 700;
+}
+
+.event_details h2 {
+  font-size: 22px;
+  color: var(--primary-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.event_details > p {
+  color: #4f4f4f;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.event_location p,
+.event_time p {
+  color: #979797;
+  font-size: 13px;
+}
+
+.event_location i,
+.event_time i {
+  margin-right: 5px;
+  color: var(--primary-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.join_btn a {
+  font-size: 16px;
+  padding: 10px 20px;
+  line-height: 24px;
 }
