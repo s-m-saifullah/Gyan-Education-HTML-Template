@@ -726,6 +726,44 @@ Home Event Style
   margin-bottom: 100px;
 }
 
+.event_cal {
+  height: 516px;
+  overflow-y: scroll;
+}
+
+.pb-calendar .top-frame > .year-month-frame {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.pb-calendar .top-frame > .control-frame > .control-btn > .icon {
+  height: 30px;
+}
+
+.pb-calendar > .calendar-body-frame > .row > .col,
+.pb-calendar > .calendar-head-frame > .row > .col {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.pb-calendar > .calendar-body-frame > .row > .col,
+.pb-calendar > .calendar-head-frame > .row > .col {
+  height: 70px;
+}
+
+.pb-calendar .schedule-dot-item.blue {
+  background-color: blue;
+}
+
+.pb-calendar .schedule-dot-item.red {
+  background-color: red;
+}
+
+.pb-calendar .schedule-dot-item.green {
+  background-color: green;
+}
+
+#home_event .event_cal,
 #home_event .event_items {
   margin: 70px 0;
 }
