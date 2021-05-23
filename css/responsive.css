@@ -149,6 +149,10 @@
   .course_slider_right_arrow {
     right: 0;
   }
+
+  #home_event .event_details h2 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 575.9px) {
@@ -175,6 +179,15 @@
   #counter .count_teacher,
   #counter .count_student {
     margin-bottom: 20px;
+  }
+
+  #home_event .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #home_event .event_details h2 {
+    margin-top: 10px;
   }
 }
 
