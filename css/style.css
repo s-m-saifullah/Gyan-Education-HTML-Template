@@ -728,12 +728,24 @@ Home Event Style
 
 .event_cal {
   height: 516px;
+  padding: 30px;
+  background-color: var(--bg-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.event_cal:hover {
+  -webkit-box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+}
+
+.pb-calendar {
   overflow-y: scroll;
 }
 
 .pb-calendar .top-frame > .year-month-frame {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .pb-calendar .top-frame > .control-frame > .control-btn > .icon {
@@ -748,7 +760,7 @@ Home Event Style
 
 .pb-calendar > .calendar-body-frame > .row > .col,
 .pb-calendar > .calendar-head-frame > .row > .col {
-  height: 70px;
+  height: 50px;
 }
 
 .pb-calendar .schedule-dot-item.blue {
