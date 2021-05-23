@@ -201,8 +201,8 @@
 
   .pb-calendar > .calendar-body-frame > .row > .col,
   .pb-calendar > .calendar-head-frame > .row > .col {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: calc(0.8rem + 0.9vw);
+    line-height: calc(0.75rem + 0.9vw);
   }
 
   .pb-calendar > .calendar-body-frame > .row > .col,
