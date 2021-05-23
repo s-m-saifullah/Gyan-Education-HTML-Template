@@ -189,6 +189,26 @@
   #home_event .event_details h2 {
     margin-top: 10px;
   }
+
+  .pb-calendar .top-frame > .year-month-frame {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .pb-calendar .top-frame > .control-frame > .control-btn > .icon {
+    height: 24px;
+  }
+
+  .pb-calendar > .calendar-body-frame > .row > .col,
+  .pb-calendar > .calendar-head-frame > .row > .col {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .pb-calendar > .calendar-body-frame > .row > .col,
+  .pb-calendar > .calendar-head-frame > .row > .col {
+    height: 40px;
+  }
 }
 
 /* Mobile Phones (Portrait Device */

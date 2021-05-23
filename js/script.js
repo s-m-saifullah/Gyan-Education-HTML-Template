@@ -56,4 +56,36 @@ $(function($){
             }
         }
     });
+
+    // Event Calendar Initialization
+
+    var current_yyyymm_ = moment().format("YYYYMM");
+
+    $("#pb-calendar").pb_calendar({
+        'next_month_button' : '<img src="./images/arrow-next.png" class="icon">',
+	  'prev_month_button' : '<img src="./images/arrow-prev.png" class="icon">',
+        schedule_list : function(callback_, yyyymm_){
+            var temp_schedule_list_ = {};
+        
+            temp_schedule_list_[current_yyyymm_+"05"] = [
+              {'ID' : 1, style : "red"}
+              ];
+
+            temp_schedule_list_[current_yyyymm_+"15"] = [
+              {'ID' : 2, style : "red"}
+            ];
+        
+            temp_schedule_list_[current_yyyymm_+"20"] = [
+              {'ID' : 3, style : "green"},
+            ];
+
+            temp_schedule_list_[current_yyyymm_+"22"] = [
+                {'ID' : 4, style : "green"},
+              ];
+            callback_(temp_schedule_list_);
+          },
+          schedule_dot_item_render : function(dot_item_el_, schedule_data_){
+            dot_item_el_.addClass(schedule_data_['style'], true);
+            return dot_item_el_;}
+    });
 });
