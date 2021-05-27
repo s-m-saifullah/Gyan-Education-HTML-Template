@@ -975,6 +975,7 @@ Testimonial Style
 
 .testimonial_accord .accordion-item .accordion-button:not(.collapsed) {
   color: var(--text-color-1);
+  box-shadow: none;
 }
 
 .testimonial_accord .accordion-item .accordion-button {
@@ -1001,8 +1002,19 @@ Testimonial Style
 
 .testimonial_accord .accordion-item {
   margin-bottom: 15px;
-  border-radius: 5px !important;
-  -webkit-border-radius: 5px !important;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.testimonial_accord .accordion-item:first-of-type,
+.testimonial_accord .accordion-item .accordion-header {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.testimonial_accord .accordion-item .accordion-button {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .testimonial_accord .accordion-item .accordion-button::after {
