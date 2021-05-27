@@ -153,6 +153,10 @@
   #home_event .event_details h2 {
     font-size: 20px;
   }
+
+  .testimonial_slider_arrow {
+    top: 30%;
+  }
 }
 
 @media (max-width: 575.9px) {
@@ -208,6 +212,20 @@
   .pb-calendar > .calendar-body-frame > .row > .col,
   .pb-calendar > .calendar-head-frame > .row > .col {
     height: 40px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .test_slide_icon_next i,
+  .test_slide_icon_prev i {
+    text-align: right !important;
+    padding-right: 8px;
+  }
+
+  .testimonial_des p {
+    margin-top: 15px;
   }
 }
 
