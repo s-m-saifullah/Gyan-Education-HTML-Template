@@ -28,6 +28,8 @@ $(function($){
         navContainer: '.slider_dots'
     });
 
+
+    // counter initialization
     $('.counter').counterUp({
         delay: 10,
         time: 1000
@@ -88,4 +90,18 @@ $(function($){
             dot_item_el_.addClass(schedule_data_['style'], true);
             return dot_item_el_;}
     });
+
+    // testimonial slider initialization
+
+    tns({
+      container: '.testimonial_slider',
+      items: 1,
+      slidBy: 1,
+      controls: true,
+      prevButton: '.test_slide_icon_prev',
+      nextButton: '.test_slide_icon_next',
+      autoplay: false,
+      autoplayButtonOutput: false,
+      nav: false,
+  });
 });
