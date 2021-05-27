@@ -903,6 +903,7 @@ Testimonial Style
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   left: -30px;
+  z-index: 3;
 }
 
 .testimonial_slide_img img {
