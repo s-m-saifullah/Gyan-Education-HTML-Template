@@ -867,7 +867,7 @@ Testimonial Style
 
 #testimonial {
   background-color: var(--bg-color);
-  padding: 100px 0;
+  padding: 100px 0 150px;
 }
 
 #testimonial .section_heading {
@@ -955,4 +955,69 @@ Testimonial Style
 
 .testimonial_rating i {
   font-size: 14px;
+}
+
+.testimonial_accord {
+  height: 300px;
+  padding-top: 20px;
+}
+
+.testimonial_accord .accordion-item {
+  -webkit-box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 32px -15px rgba(0, 0, 0, 0.43);
+}
+
+.testimonial_accord .accordion-item .accordion-button,
+.testimonial_accord .accordion-item .accordion-body {
+  color: var(--text-color-1);
+}
+
+.testimonial_accord .accordion-item .accordion-button:not(.collapsed) {
+  color: var(--text-color-1);
+}
+
+.testimonial_accord .accordion-item .accordion-button {
+  font-size: 20px;
+}
+
+.testimonial_accord .accordion-item .accordion-button {
+  background-color: var(--secondary-color);
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+}
+
+.testimonial_accord .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+
+.testimonial_accord .accordion-item .collapsed {
+  background-color: #ffffff !important;
+}
+
+.testimonial_accord .accordion-item .accordion-body {
+  font-size: 14px;
+}
+
+.testimonial_accord .accordion-item {
+  margin-bottom: 15px;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+}
+
+.testimonial_accord .accordion-item .accordion-button::after {
+  display: none;
+}
+
+.testimonial_accord .accordion-item .accordion-button i {
+  font-size: 20px;
+  transform: rotate(90deg);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -webkit-transform: rotate(90deg);
+  margin-left: auto;
+}
+
+.testimonial_accord .accordion-item .collapsed i {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
 }
