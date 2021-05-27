@@ -231,6 +231,10 @@
   .testimonial_des p {
     margin-top: 15px;
   }
+
+  .testimonial_slider_arrow {
+    top: 22%;
+  }
 }
 
 /* Mobile Phones (Portrait Device */
