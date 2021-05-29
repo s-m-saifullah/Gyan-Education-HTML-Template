@@ -11,17 +11,20 @@ Table of Content
 
 Common Sections to all pages
 
-1. Global Style
-2. Header Style
-3. Nav Style
+1.  Global Style
+2.  Header Style
+3.  Nav Style
 
 Home Page Sections
 
-4. Home Banner Style
-5. Support Style
-6. About Us Style
-7. Counter Style
-8. Our Courses Style
+4.  Home Banner Style
+5.  Support Style
+6.  About Us Style
+7.  Counter Style
+8.  Our Courses Style
+9.  Home Event Style
+10. Testimonial Style
+11. Our Teacher Style
 
 
 */
@@ -867,7 +870,7 @@ Testimonial Style
 
 #testimonial {
   background-color: var(--bg-color);
-  padding: 100px 0 150px;
+  padding: 100px 0;
 }
 
 #testimonial .section_heading {
@@ -1033,4 +1036,73 @@ Testimonial Style
 .testimonial_accord .accordion-item .collapsed i {
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+}
+
+/*
+=================
+Our Teacher Style
+=================
+*/
+
+#home_teacher {
+  padding: 100px 0;
+}
+
+.teachers {
+  margin-top: 50px;
+}
+
+.single_teacher {
+  padding: 0 15px;
+}
+
+.teachers_social i {
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.teachers_social i + i {
+  margin-left: 20px;
+}
+
+.teachers_social {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.single_teacher:hover .teachers_social {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+.teacher_img {
+  margin-bottom: 20px;
+}
+
+.teachers_details {
+  transition: 0.5s;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -webkit-transition: 0.5s;
+}
+
+.single_teacher:hover .teachers_details {
+  transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+}
+
+.teachers_social i:hover {
+  background-color: var(--secondary-color);
 }

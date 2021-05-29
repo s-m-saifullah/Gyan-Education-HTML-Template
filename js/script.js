@@ -104,4 +104,31 @@ $(function($){
       autoplayButtonOutput: false,
       nav: false,
   });
+
+  // Our Teachers slider initialization
+
+  tns({
+    container: '.teachers',
+    items: 1,
+    slidBy: 1,
+    controls: false,
+    mouseDrag: true,
+    autoplay: false,
+    autoplayButtonOutput: false,
+    nav: false,
+    responsive: {
+      1025: {
+          items: 4
+      },
+      801: {
+          items: 3
+      },
+      481: {
+        items: 2
+      }
+
+
+
+    }
+  });
 });
