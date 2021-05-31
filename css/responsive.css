@@ -49,6 +49,10 @@
   nav .get_started a {
     font-size: 15px;
   }
+
+  .feat_blog_title {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 991.9px) {
@@ -234,6 +238,20 @@
 
   .testimonial_slider_arrow {
     top: 20%;
+  }
+
+  .feat_blog::after {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .blog_social ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+
+  .blog_social ul li {
+    margin-right: 20px;
   }
 }
 

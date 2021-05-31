@@ -1106,3 +1106,113 @@ Our Teacher Style
 .teachers_social i:hover {
   background-color: var(--secondary-color);
 }
+
+/*
+==========
+Blog Style
+==========
+*/
+
+#blog {
+  padding: 0 0 80px;
+}
+
+.blog_header {
+  background-color: var(--primary-color);
+  height: 320px;
+  padding-top: 30px;
+}
+
+#blog .section_heading h2,
+#blog .section_heading p {
+  color: #ffffff;
+}
+
+.blog_gallery {
+  transform: translateY(-130px);
+  -webkit-transform: translateY(-130px);
+}
+
+.feat_blog {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 445px;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.feat_blog::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7987394787016369) 0%,
+    rgba(0, 0, 0, 0.6950980221190038) 20%,
+    rgba(0, 0, 0, 0.2) 35%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: -1;
+}
+
+.blog_social i {
+  font-size: 14px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  -webkit-border-radius: 50%;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+}
+
+.blog_social {
+  margin-top: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.blog_social ul li {
+  margin: 10px 0;
+}
+
+.blog_social i:hover {
+  background-color: var(--secondary-color);
+}
+
+.feat_blog_title {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.web_link,
+.blog_meta p {
+  font-size: 13px;
+}
+
+.blog_meta {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.web_link {
+  margin: 15px 0;
+}
+
+.feat_blog:hover .blog_social,
+.feat_blog:hover .blog_meta {
+  visibility: visible;
+  opacity: 1;
+}
