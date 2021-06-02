@@ -18,6 +18,10 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .blog_gal_title {
+    margin-top: 40px;
+  }
 }
 
 /* Medium (md) Device */
@@ -165,6 +169,10 @@
   .testimonial_slider_arrow {
     top: 30%;
   }
+
+  .blog_gal_title {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 575.9px) {
@@ -244,7 +252,7 @@
     background: rgba(0, 0, 0, 0.7);
   }
 
-  .blog_social ul {
+  .feat_blog .blog_social ul {
     display: flex;
     justify-content: center;
     margin-top: 20%;
@@ -252,6 +260,11 @@
 
   .blog_social ul li {
     margin-right: 20px;
+  }
+
+  .blog_gal_item .blog_social {
+    text-align: right;
+    margin-right: -5px;
   }
 }
 
