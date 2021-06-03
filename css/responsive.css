@@ -1,3 +1,12 @@
+@media (min-width: 1400px) {
+  #banner .banner_content a {
+    margin-top: 100px;
+  }
+  .event_cal {
+    height: 582px;
+  }
+}
+
 /* Large (lg) Device */
 
 @media (min-width: 1200px) {
@@ -6,6 +15,10 @@
     top: 53vh;
     height: 50px;
     width: 50px;
+  }
+
+  #banner .banner_content a {
+    margin-top: 50px;
   }
 
   .slider_arrows i {
@@ -21,6 +34,10 @@
 
   .blog_gal_title {
     margin-top: 40px;
+  }
+
+  .contact_center .col-lg-5 {
+    padding-left: 0;
   }
 }
 
@@ -56,6 +73,9 @@
 
   .feat_blog_title {
     margin-top: 80px;
+  }
+  .testimonial_slider_arrow {
+    left: -18px;
   }
 }
 
@@ -167,7 +187,7 @@
   }
 
   .testimonial_slider_arrow {
-    top: 30%;
+    top: 22%;
   }
 
   .blog_gal_title {
@@ -220,6 +240,9 @@
   #home_event .event_details h2 {
     margin-top: 10px;
   }
+  .event_cal {
+    height: 427px;
+  }
 
   .pb-calendar .top-frame > .year-month-frame {
     font-size: 24px;
@@ -241,6 +264,10 @@
     height: 40px;
   }
 
+  #home_event .event_items {
+    margin-top: 40px;
+  }
+
   body {
     overflow-x: hidden;
   }
@@ -257,6 +284,7 @@
 
   .testimonial_slider_arrow {
     top: 20%;
+    left: -28px;
   }
 
   .feat_blog::after {
@@ -284,6 +312,6 @@
 @media (max-width: 479px) {
   #banner .slider_arrows .slider_left_arrow,
   #banner .slider_arrows .slider_right_arrow {
-    top: 55vh;
+    top: 54vh;
   }
 }
