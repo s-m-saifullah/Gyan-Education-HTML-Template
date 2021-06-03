@@ -1254,7 +1254,7 @@ Contact Style
 
 #contact {
   background-color: var(--primary-color);
-  padding: 30px 0;
+  padding: 30px 0 0;
 }
 
 .contact_left p {
@@ -1336,4 +1336,55 @@ Contact Style
 
 .contact_details {
   margin-bottom: 20px;
+}
+
+/* Contact Image Slider */
+
+.contact_slide_item {
+  position: relative;
+}
+
+.con_sli_overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.contact_slide_item:hover .con_sli_overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay_item {
+  position: absolute;
+  font-size: 13px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-color);
+  background-color: #ffffff;
+  padding: 12px 15px;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.overlay_item:hover {
+  color: var(--primary-color);
+}
+
+/* Footer Style */
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer p span {
+  color: var(--secondary-color);
 }

@@ -131,4 +131,32 @@ $(function($){
 
     }
   });
+
+  // Contact image slider initialization
+
+  tns({
+    container: '.contact_slider',
+    items: 1,
+    slidBy: 1,
+    controls: false,
+    mouseDrag: true,
+    autoplay: false,
+    autoplayButtonOutput: false,
+    nav: false,
+    responsive: {
+      1025: {
+          items: 6
+      },
+      800: {
+          items: 3
+      },
+      481: {
+        items: 2
+      }
+
+
+
+    }
+  });
+
 });
