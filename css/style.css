@@ -1113,10 +1113,6 @@ Blog Style
 ==========
 */
 
-#blog {
-  padding: 0 0 80px;
-}
-
 .blog_header {
   background-color: var(--primary-color);
   height: 320px;
