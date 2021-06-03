@@ -25,6 +25,8 @@ Home Page Sections
 9.  Home Event Style
 10. Testimonial Style
 11. Our Teacher Style
+12. Blog Style
+13. Contact Style
 
 
 */
@@ -243,6 +245,10 @@ nav .get_started a {
 
 nav .get_started:hover {
   background-color: var(--primary-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 /*
