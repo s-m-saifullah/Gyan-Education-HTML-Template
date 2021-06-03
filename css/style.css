@@ -1113,10 +1113,6 @@ Blog Style
 ==========
 */
 
-#blog {
-  padding: 0 0 80px;
-}
-
 .blog_header {
   background-color: var(--primary-color);
   height: 320px;
@@ -1248,4 +1244,96 @@ Blog Style
 
 .blog_gal_item .web_link {
   margin: 5px 0;
+}
+
+/*
+=============
+Contact Style
+=============
+*/
+
+#contact {
+  background-color: var(--primary-color);
+  padding: 30px 0;
+}
+
+.contact_left p {
+  font-size: 14px;
+}
+
+.contact_social ul {
+  display: flex;
+}
+
+.contact_social ul li {
+  margin-right: 15px;
+}
+
+.contact_social i {
+  font-size: 20px;
+  color: var(--primary-color);
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.6s;
+}
+
+.contact_social i:hover {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.contact_center h4,
+.contact_right h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 20px 0 35px;
+}
+
+.contact_center ul li {
+  margin-bottom: 25px;
+}
+
+.contact_center a {
+  color: #ffffff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+.contact_center a:hover {
+  color: var(--secondary-color);
+}
+
+.contact_right i {
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  margin-bottom: 35px;
+}
+
+.contact_right i:hover {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.cheader_right_heading {
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+}
+
+.contact_details {
+  margin-bottom: 20px;
 }
