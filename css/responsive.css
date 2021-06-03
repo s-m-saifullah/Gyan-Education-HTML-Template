@@ -32,6 +32,38 @@
     padding-right: 100px;
   }
 
+  .event_cal {
+    height: 450px;
+  }
+
+  .pb-calendar > .calendar-body-frame > .row > .col {
+    line-height: 10px;
+  }
+
+  .event_img {
+    padding-top: 8px;
+  }
+
+  .event_details h2 {
+    font-size: 18px;
+  }
+
+  .event_details .col-5 {
+    padding-right: 0;
+  }
+  .event_details .col-7 {
+    padding-left: 0;
+  }
+
+  .event_location p,
+  .event_time p {
+    font-size: 12px;
+  }
+
+  .join_btn a {
+    margin-top: 7px;
+  }
+
   .blog_gal_title {
     margin-top: 40px;
   }
