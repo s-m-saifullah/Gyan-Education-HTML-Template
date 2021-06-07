@@ -1426,20 +1426,12 @@ Contact Style
 }
 
 /*
-=============
-=============
-Teachers Page
-=============
-=============
-*/
-
-/*
 =====================
-Teachers Header Style
+Page Header Style
 =====================
 */
 
-#teachers_header {
+#page_header {
   height: 290px;
   background-image: url(../images/02_about_us_Banner.png);
   background-position: center;
@@ -1449,7 +1441,7 @@ Teachers Header Style
   z-index: 1;
 }
 
-#teachers_header::after {
+#page_header::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1460,7 +1452,7 @@ Teachers Header Style
   z-index: -1;
 }
 
-#teachers_header h3 {
+#page_header h3 {
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
@@ -1469,11 +1461,23 @@ Teachers Header Style
   text-align: center;
 }
 
-#teachers_header .breadcrumb-item {
+#page_header .breadcrumb-item {
   font-size: 14px;
   color: var(--secondary-color);
 }
 
-#teachers_header .breadcrumb-item::before {
+#page_header .breadcrumb-item::before {
   color: #ffffff;
+}
+
+/*
+=============
+=============
+Teachers Page
+=============
+=============
+*/
+
+#teacher_teacher {
+  margin-bottom: 50px;
 }
