@@ -15,16 +15,12 @@ $(function ($) {
     $('.about_slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
         arrows: false,
-        appendDots: $('.slider_sots')
+        dots: true
     });
 
-    $('.slider_dots').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.about_slider',
-        focusOnSelect: true
-    })
+    
 
     //Our courses section slider initialization
 
