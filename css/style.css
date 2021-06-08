@@ -468,38 +468,30 @@ About Us Style
   background-position: right;
 }
 
-.about_left .slider_dots .slick-track {
-  width: 100% !important;
+.about_content .slick-dots {
+  bottom: 20px;
 }
 
-.about_left .slider_dots {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 15px;
-  z-index: 2;
-  -webkit-transform: translateX(-50%);
+.about_content .slick-dots li {
+  margin: 0 2px;
 }
 
-.about_left .slider_dots button {
+.about_content .slick-dots li button {
+  width: 5px;
+  height: 5px;
   background-color: transparent;
-  border: none;
-}
-
-.about_left .slider_dots button i {
-  font-size: 12px;
-  color: var(--light-text);
+  border: 1px solid var(--light-text);
   border-radius: 50%;
   -webkit-border-radius: 50%;
 }
 
-.about_left .slider_dots button + button {
-  margin-left: 5px;
+.about_content .slick-dots li button::before {
+  display: none;
 }
 
-.about_left .slider_dots button.slick-current i {
-  color: var(--secondary-color);
+.about_content .slick-dots li.slick-active button {
   background-color: var(--secondary-color);
+  border-color: transparent;
 }
 
 .about_right {
