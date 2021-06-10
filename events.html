@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyan - Education HTML Template</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/pb.calendar.min.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="d-none d-sm-block col-sm-9 h_left">
+            <span>Having any Trouble?</span>
+            <span
+              ><i class="fas fa-phone"></i
+              ><a href="tel:+8801234567890">(+880) 1234 567 890</a></span
+            >
+            <span class="d-none d-md-inline-block"
+              ><i class="fas fa-envelope"></i
+              ><a href="mailto:gyan@gmail.com">gyan@gmail.com</a></span
+            >
+          </div>
+          <div class="col-sm-3 text-end h_right">
+            <a href="#">Register</a>
+            <span>/</span>
+            <a href="#">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Nav Part Starts -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container align-items-end">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto main_menu">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Our Courses</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="events.html"
+                >Our Events</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teachers.html">Our Teachers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="d-none d-lg-inline-block get_started">
+            <a href="#">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Part Ends -->
+
+    <!-- Nav Below Part Starts -->
+    <section id="page_header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5 text-center">
+            <h3>Our Events</h3>
+            <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item">
+                  <a class="text-white" href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Our Events
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nav Below Part Ends -->
+
+    <!-- Support Part Starts -->
+    <section id="support">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 support_item">
+            <img src="images/online_class_icon.png" alt="" />
+            <h2>Online Classes</h2>
+            <a href="#"
+              >Learn More <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+          <div class="col-md-4 support_item">
+            <img src="images/online_support_icon.png" alt="" />
+            <h2>Online and Offline Support</h2>
+            <a href="#"
+              >Learn More <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+          <div class="col-md-4 support_item">
+            <img src="images/lifetime_support_icon.png" alt="" />
+            <h2>Online Courses</h2>
+            <a href="#"
+              >Learn More <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Support Part Ends -->
+
+    <!-- Home Event Part Starts -->
+    <section id="home_event">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6">
+            <div class="event_cal">
+              <div id="pb-calendar" class="pb-calendar h-100"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="event_items">
+              <div class="row flex-column gy-4">
+                <div class="event_item">
+                  <div class="row align-content-center">
+                    <div class="col-sm-5">
+                      <div class="event_img">
+                        <img class="w-100" src="images/event2.png" alt="" />
+                        <div class="date_badge">
+                          <p class="text-center">15 May</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="event_details">
+                        <h2>UI/UX Bootcamp Meetup 2019</h2>
+                        <p>
+                          Lorem ipsum dolor sit amet, consecteturng elit sed do
+                          eiusmod temor
+                        </p>
+                        <div class="row">
+                          <div class="col-5">
+                            <div class="event_location">
+                              <p>
+                                <i class="fas fa-map-marker-alt"></i>Seminar
+                                Room
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-7">
+                            <div class="event_time">
+                              <p>
+                                <i class="far fa-clock"></i>9:00 AM - 1:00 PM
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="join_btn">
+                          <a href="#" class="prime_bg">Join Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="event_item">
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <div class="event_img">
+                        <img class="w-100" src="images/event2.png" alt="" />
+                        <div class="date_badge">
+                          <p class="text-center">20 May</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="event_details">
+                        <h2>UI/UX Bootcamp Meetup 2019</h2>
+                        <p>
+                          Lorem ipsum dolor sit amet, consecteturng elit sed do
+                          eiusmod temor
+                        </p>
+                        <div class="row">
+                          <div class="col-5">
+                            <div class="event_location">
+                              <p>
+                                <i class="fas fa-map-marker-alt"></i>Seminar
+                                Room
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-7">
+                            <div class="event_time">
+                              <p>
+                                <i class="far fa-clock"></i>9:00 AM - 1:00 PM
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="join_btn">
+                          <a href="#" class="prime_bg">Join Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Event Part Ends -->
+
+    <!-- Contact Part Starts -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              col-12 col-lg-4
+              text-center text-md-start text-white
+              mb-4 mb-lg-0
+              contact_left
+            "
+          >
+            <div class="contact_logo mb-4">
+              <a href="index.html"
+                ><img src="images/footerlogo.png" alt=""
+              /></a>
+            </div>
+            <div class="footer_text">
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p class="mb-4">
+                Ut enim ad minim veniam, quis nostrud exercitation ullmco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </div>
+            <div class="contact_social text-center">
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="
+              col-12 col-md-6 col-lg-4
+              text-center text-md-start text-white
+              contact_center
+            "
+          >
+            <div class="contact_header">
+              <h4>Quick Links</h4>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-7">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#contact">Contact us</a></li>
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-5">
+                <ul>
+                  <li><a href="teachers.html">Our Teachers</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Latest News</a></li>
+                  <li><a href="#">Success Stories</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              col-12 col-md-6 col-lg-4
+              text-center text-md-start text-white
+              mb-4
+              contact_right
+            "
+          >
+            <div class="contact_header">
+              <h4>Contact Information</h4>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <ul class="d-flex d-md-block pt-3 justify-content-center">
+                  <li class="px-2 px-md-0">
+                    <i class="fas fa-home"></i>
+                  </li>
+                  <li class="px-2 px-md-0">
+                    <i class="fas fa-phone"></i>
+                  </li>
+                  <li class="px-2 px-md-0">
+                    <i class="fas fa-envelope"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-9">
+                <ul>
+                  <li>
+                    <p class="cheader_right_heading">Location</p>
+                    <p class="contact_details">
+                      1234, Parkstreet Avenue, NewyorkAmerica.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="cheader_right_heading">Phone</p>
+                    <p class="contact_details">
+                      +880 1234 567 890, 02 0987 654
+                    </p>
+                  </li>
+                  <li>
+                    <p class="cheader_right_heading">E-mail</p>
+                    <p class="contact_details">
+                      gyan@gmail.com, learning@gmail.com
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact_slider">
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall1.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall2.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall3.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall4.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall2.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall4.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall1.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall3.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall4.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall2.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall3.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall1.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall4.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall3.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+
+        <div class="contact_slide_item">
+          <img class="w-100" src="images/blogsmall2.png" alt="" />
+          <div class="con_sli_overlay">
+            <a class="overlay_item"> Instagram Post </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer">
+          <p class="text-white text-center py-3">
+            Copyright <i class="fas fa-copyright"></i> 2021. All rights by
+            <span>GYAN</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- contact Part Ends -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/pb.calendar.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
