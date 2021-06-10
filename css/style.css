@@ -1585,3 +1585,46 @@ About Page
   -webkit-transform: translate(-50%, -50%);
   -webkit-border-radius: 50%;
 }
+
+/*
+==========
+==========
+Event Page
+==========
+==========
+*/
+#events .event_items {
+  margin-bottom: 110px;
+}
+
+#events .event_item {
+  margin: 15px 0;
+}
+
+#pills-upcoming .date_badge {
+  background-color: #008000;
+}
+
+#events .nav {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  margin-bottom: 60px;
+}
+
+#events .nav .nav-link {
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+#events .nav .nav-link.active {
+  background-color: var(--secondary-color);
+}
