@@ -167,5 +167,10 @@ $(function ($) {
         }
     });
 
+    $('.venobox').venobox({
+        framewidth : '650px',
+        frameheight: '400px',
+        autoplay: true,
+    }); 
 
 });
