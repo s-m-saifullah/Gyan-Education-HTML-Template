@@ -357,7 +357,8 @@ Home Banner Style
 #banner .banner_content a,
 .about_right a,
 .enroll_btn a,
-.join_btn a {
+.join_btn a,
+.r-4 a {
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
@@ -462,7 +463,7 @@ About Us Style
 }
 
 .about_left::after {
-  bottom: -10px;
+  bottom: 20px;
   right: 10px;
   background-image: url(../images/aboutSliderBorderBottom.png);
   background-position: right;
@@ -498,7 +499,7 @@ About Us Style
   margin-top: 50px;
 }
 
-.about_right p {
+.about_content p {
   font-size: 14px;
   color: var(--text-color-1);
   margin-bottom: 20px;
@@ -1484,11 +1485,11 @@ Teachers Page
 }
 
 /*
-=============
-=============
+===========
+===========
 Course Page
-=============
-=============
+===========
+===========
 */
 
 #course {
@@ -1500,4 +1501,87 @@ Course Page
   margin-bottom: 25px;
   margin-right: 3px;
   margin-left: 3px;
+}
+
+/*
+==========
+==========
+About Page
+==========
+==========
+*/
+
+#about {
+  margin-top: -70px;
+  margin-bottom: 100px;
+}
+
+#page_about .about_right {
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+#page_about p {
+  margin-bottom: 34px;
+}
+
+.r-2,
+.r-4 {
+  margin: 10px 0;
+}
+
+.r-3 {
+  margin-bottom: 15px;
+}
+
+.r-3 .about_right {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.r-3.about_left::before {
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.r-3.about_left::after {
+  left: 10px;
+  bottom: 1px;
+  transform: rotate(180deg);
+  -webkit-transform: ;
+}
+
+.modal_vid {
+  position: relative;
+  -webkit-clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%);
+  clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%);
+}
+
+.modal_vid .vid_overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal_vid img {
+  width: 100%;
+}
+
+.modal_vid .vid_overlay i {
+  position: absolute;
+  background-color: #fb3833;
+  color: #ffffff;
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -webkit-border-radius: 50%;
 }
