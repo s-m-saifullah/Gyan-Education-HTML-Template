@@ -24,6 +24,7 @@ $(function ($) {
         }
     });
 
+
     //On click event
 
     $('.b2t_btn').on('click', function(){
@@ -31,8 +32,6 @@ $(function ($) {
             scrollTop: 0
         }, 2000)
     })
-
-
 
 
     //banner slider initialization
@@ -55,7 +54,6 @@ $(function ($) {
         dots: true
     });
 
-    
 
     //Our courses section slider initialization
 
@@ -149,7 +147,6 @@ $(function ($) {
     });
 
 
-
     // counter initialization
     $('.counter').counterUp({
         delay: 10,
@@ -201,6 +198,7 @@ $(function ($) {
             return dot_item_el_;
         }
     });
+    
 
     // Initialized Venobox for About Page Video 
 
