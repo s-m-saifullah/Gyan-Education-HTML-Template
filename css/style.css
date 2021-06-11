@@ -4,29 +4,61 @@ Author: S. M. Saifullah
 Mail: shakil.m.19@gmail.com
 Version: 1.0
 
-
+================
 ================
 Table of Content
 ================
+================
 
+============================
 Common Sections to all pages
+============================
 
 1.  Global Style
 2.  Header Style
 3.  Nav Style
+4.  Contact Style
+5.  Back To Top Button
 
 Home Page Sections
 
-4.  Home Banner Style
-5.  Support Style
-6.  About Us Style
-7.  Counter Style
-8.  Our Courses Style
-9.  Home Event Style
-10. Testimonial Style
-11. Our Teacher Style
-12. Blog Style
-13. Contact Style
+6.  Home Banner Style
+7.  Support Style
+8.  About Us Style
+9.  Counter Style
+10.  Our Courses Style
+11.  Home Event Style
+12. Testimonial Style
+13. Our Teacher Style
+14. Blog Style
+
+========================
+Other Pages Global Style
+========================
+15. Page Header Style
+
+==========
+About Page
+==========
+8.  About Us Style
+
+===========
+Course Page
+===========
+10.  Our Courses Style
+
+
+==========
+Event Page
+==========
+11. Home Event Style
+
+
+=============
+Teachers Page
+=============
+13. Our Teacher Style
+
 
 
 */
@@ -1494,37 +1526,6 @@ Page Header Style
 }
 
 /*
-=============
-=============
-Teachers Page
-=============
-=============
-*/
-
-#teacher_teacher {
-  margin-bottom: 50px;
-}
-
-/*
-===========
-===========
-Course Page
-===========
-===========
-*/
-
-#course {
-  transform: translateY(-50px);
-  -webkit-transform: translateY(-50px);
-}
-
-#course .course_item_wrapper {
-  margin-bottom: 25px;
-  margin-right: 3px;
-  margin-left: 3px;
-}
-
-/*
 ==========
 ==========
 About Page
@@ -1608,23 +1609,31 @@ About Page
 }
 
 /*
+===========
+===========
+Course Page
+===========
+===========
+*/
+
+#course {
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
+}
+
+#course .course_item_wrapper {
+  margin-bottom: 25px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+/*
 ==========
 ==========
 Event Page
 ==========
 ==========
 */
-#events .event_items {
-  margin-bottom: 110px;
-}
-
-#events .event_item {
-  margin: 15px 0;
-}
-
-#pills-upcoming .date_badge {
-  background-color: #008000;
-}
 
 #events .nav {
   background-color: var(--primary-color);
@@ -1650,6 +1659,30 @@ Event Page
   background-color: var(--secondary-color);
 }
 
+#events .event_items {
+  margin-bottom: 110px;
+}
+
+#events .event_item {
+  margin: 15px 0;
+}
+
+#pills-upcoming .date_badge {
+  background-color: #008000;
+}
+
+/*
+=============
+=============
+Teachers Page
+=============
+=============
+*/
+
+#teacher_teacher {
+  margin-bottom: 50px;
+}
+
 /* 
 Back To Top Button
 */
@@ -1659,6 +1692,7 @@ Back To Top Button
   right: 30px;
   bottom: 20px;
   cursor: pointer;
+  display: none;
 }
 
 .b2t_btn i {
