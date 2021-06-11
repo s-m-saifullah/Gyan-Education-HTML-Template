@@ -259,6 +259,10 @@
 }
 
 @media (max-width: 575.9px) {
+  #main_nav {
+    padding-top: 0px;
+  }
+
   #support {
     padding-left: 15px;
     padding-right: 15px;

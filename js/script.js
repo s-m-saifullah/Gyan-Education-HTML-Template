@@ -1,5 +1,20 @@
 $(function ($) {
 
+    //Sticky Nav
+    var menuTop = $('.navbar').offset().top;
+    menuTop = menuTop + 120;
+
+    $(window).on('scroll', function(){
+        var distTop = $(window).scrollTop();
+
+        if (distTop > menuTop) {
+            $('.navbar').addClass('menufix');
+        } else {
+            $('.navbar').removeClass('menufix')
+        }
+    })
+
+
     //banner slider initialization
 
     $('.home_slider').slick({
@@ -166,6 +181,8 @@ $(function ($) {
             return dot_item_el_;
         }
     });
+
+    // Initialized Venobox for About Page Video 
 
     $('.venobox').venobox({
         framewidth : '650px',
