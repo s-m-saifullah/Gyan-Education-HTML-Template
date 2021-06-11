@@ -186,7 +186,7 @@ Nav Style
 */
 
 #main_nav {
-  padding: 20px 0 30px !important;
+  padding: 20px 0 30px;
 }
 
 nav .navbar-toggler {
@@ -252,6 +252,27 @@ nav .get_started:hover {
 .navbar-toggler:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.menufix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  animation: smooth 1s !important;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  -webkit-animation: smooth 1s !important;
+}
+
+@keyframes smooth {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 /*
@@ -355,7 +376,7 @@ Home Banner Style
 }
 
 #banner .banner_content a,
-.about_right a,
+.about_text a,
 .enroll_btn a,
 .join_btn a,
 .r-4 a {
@@ -436,7 +457,7 @@ About Us Style
   margin-top: 55px;
 }
 
-.about_left {
+.about_media {
   position: relative;
 }
 
@@ -446,8 +467,8 @@ About Us Style
   clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%);
 }
 
-.about_left::before,
-.about_left::after {
+.about_media::before,
+.about_media::after {
   content: "";
   position: absolute;
   height: 3px;
@@ -456,13 +477,13 @@ About Us Style
   background-size: contain;
 }
 
-.about_left::before {
+.about_media::before {
   top: -10px;
   background-image: url(../images/aboutSliderBorderTop.png);
   background-position: left;
 }
 
-.about_left::after {
+.about_media::after {
   bottom: 20px;
   right: 10px;
   background-image: url(../images/aboutSliderBorderBottom.png);
@@ -495,7 +516,7 @@ About Us Style
   border-color: transparent;
 }
 
-.about_right {
+.about_text {
   margin-top: 50px;
 }
 
@@ -1516,7 +1537,7 @@ About Page
   margin-bottom: 100px;
 }
 
-#page_about .about_right {
+#page_about .about_text {
   margin-top: 0;
   padding-left: 15px;
 }
@@ -1534,17 +1555,17 @@ About Page
   margin-bottom: 15px;
 }
 
-.r-3 .about_right {
+.r-3 .about_text {
   padding-left: 0;
   padding-right: 15px;
 }
 
-.r-3.about_left::before {
+.r-3.about_media::before {
   right: 10px;
   transform: rotate(180deg);
 }
 
-.r-3.about_left::after {
+.r-3.about_media::after {
   left: 11px;
   bottom: -10px;
   transform: rotate(180deg);
@@ -1627,4 +1648,27 @@ Event Page
 
 #events .nav .nav-link.active {
   background-color: var(--secondary-color);
+}
+
+/* 
+Back To Top Button
+*/
+
+.b2t_btn {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.b2t_btn i {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }

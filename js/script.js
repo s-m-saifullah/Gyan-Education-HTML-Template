@@ -1,5 +1,40 @@
 $(function ($) {
 
+    //Calculating distance of navbar from top
+    var menuTop = $('.navbar').offset().top;
+    menuTop = menuTop + 120;
+
+    //On Scroll Event
+    $(window).on('scroll', function(){
+        var distTop = $(window).scrollTop();
+
+        // Sticky menu initialization
+        if (distTop > menuTop) {
+            $('.navbar').addClass('menufix');
+        } else {
+            $('.navbar').removeClass('menufix')
+        }
+
+        //back to top button appearance
+
+        if (distTop > 500) {
+            $('.b2t_btn').fadeIn(500);
+        } else {
+            $('.b2t_btn').fadeOut(500);
+        }
+    });
+
+    //On click event
+
+    $('.b2t_btn').on('click', function(){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000)
+    })
+
+
+
+
     //banner slider initialization
 
     $('.home_slider').slick({
@@ -166,6 +201,8 @@ $(function ($) {
             return dot_item_el_;
         }
     });
+
+    // Initialized Venobox for About Page Video 
 
     $('.venobox').venobox({
         framewidth : '650px',
