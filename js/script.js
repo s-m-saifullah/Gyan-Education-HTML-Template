@@ -1,5 +1,6 @@
 $(function ($) {
 
+
     //Calculating distance of navbar from top
     var menuTop = $('.navbar').offset().top;
     menuTop = menuTop + 120;
@@ -28,10 +29,10 @@ $(function ($) {
     //On click event
 
     $('.b2t_btn').on('click', function(){
-        $('html, body').animate({
-            scrollTop: 0
+        $('html').animate({
+            scrollTop: 0,
         }, 2000)
-    })
+    });
 
 
     //banner slider initialization
@@ -198,7 +199,7 @@ $(function ($) {
             return dot_item_el_;
         }
     });
-    
+
 
     // Initialized Venobox for About Page Video 
 
