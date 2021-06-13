@@ -366,6 +366,11 @@
     text-align: right;
     margin-right: -5px;
   }
+
+  .b2t_btn {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 
 /* Mobile Phones (Portrait Device */
